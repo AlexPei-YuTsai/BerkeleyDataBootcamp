@@ -1,5 +1,5 @@
 # Visual Basic for Applications (VBA) Challenge
-### Folder Contents:
+## Folder Contents:
 - A script that parses through all pages of a given Excel file and produces a summary table for each unique stock ticker on the spreadsheet.
   - Scripts in both `.vbs` and `.bas` form. 
   - `.bas` files can be directly imported into your file through the Visual Basic Editor by going to File > Import File. The other file type will require some Commmand Line Interface nonsense if you haven't directly copied the code in the file onto the Editor.
@@ -51,8 +51,17 @@ Each "block" of data would then consist of data with the same Ticker ordered by 
 
 In the code I have, I basically cycle through each page, sorting all the data just in case someone ever hit Data>Sort in order to check a particular statistic, running through the "block" algorithm, and aggregating each ticker's numbers on a table in a different column. I also use the spreadsheet's cells to store any data I would need for calculations since I could not be bothered to set variables. Probably not the best practice, but it works.
 
-Any other data generated basically abuses the Sort function in order for me to conveniently collect any matches I need.
+Any other data generated basically abuses the Sort and Record Macro functions in order for me to conveniently collect any matches I need. **Record Macro** is also how I got all the special-sorting and conditional formatting into the editorin the first place. I recommend anyone trying to write a VBA program to exploit and use that functionality to save time and brainpower.
 
-"But Alex," you may say, "Doesn't your reliance on Sorts severely slow down your program?"
+"But Alex," you may ask, "Doesn't your reliance on Sorts severely slow down your program?"
 
 Yes... Or so I thought. The 2.3 million-entry excel file took my computer roughly 3 minutes to fully finish. If I remove the Sorting function in the script, the time goes down to about 2 minutes and 55 seconds. I also wasn't really paying attention to my timer, so it's fair to say that the difference in computing time was negligible (It probably isn't). This means that whatever computing time it took is attributable to: My computer being garbage, VBA's compiler being garbage, or, more likely, my code being Garbage. However, given how my logic works and all the concerns I've listed previously, I find my current implementation to be satisfactory.
+
+## Random Thoughts
+### April 22, 2023
+- God, is it just me, or does VBA's documentation just suck (maybe "mediocre" is a better word here, but it does suck)? Given that Macros are so unwieldy that Microsoft disables them by default and forces you to recognize that you will be activating scripts that cannot be undone, it almost feels like this is the one cousin in the family no one talks about and will eventually get phased out and deprecated out of Microsoft Office after something big takes off.
+  - I mean... just look at [standard Javascript documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map "Look at how INFORMATIVE and DETAILED this is...") and compare it to [this VBA object's documentation](https://learn.microsoft.com/en-us/office/vba/language/reference/user-interface-help/dictionary-object "Bruh. Please."). 
+  - It's night and day here! Yes, Javascript documentation may seem overwhelming with how much content they have, but that's precisely what we need. Just look at how *comprehensive* this is - examples with different data types, compatibility charts so it doesn't feel like I'm wasting 2 hours on a piece of code that isn't even being supported by my current setup, brief explanations of any methods and secondary functions connected to the referenced function in question, etc. It's so... helpful.
+  - Meanwhile in VBA land, I didn't even know about activating it with the Microsoft Scripting Runtime reference until I explored 4-5 different third-party tutorial websites, each inundating me with a sickening amount of modals, popups, and ads.
+- Good documentation is crucial. It's like the lubricant that minimizes resistance as ambitious future programmers learn different languages and frameworks. Trying to do things in VBA has made me appreciate this part of the coding world much more and is probably the reason why I've written so much for a README file that maybe a handful of people will ever read.
+- I fear for my data science life.
