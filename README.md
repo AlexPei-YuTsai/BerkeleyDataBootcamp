@@ -7,6 +7,8 @@ The language used here might be a little crass and straightforward, but really t
 Regardless of how lofty one's goals of machine learning and data science are, all data-processing begins at managing spreadsheets and understanding basic statistics. We learn pivot tables, conditional formatting, convenient functions, and data visualization here.
 
 ### Module 02 - Visual Basic for Applications
+Aspiring data scientist's first IDE and programming language. We learn the basics of every language: Variables, Ifs, Loops, and Functions here. Had to read up about object methods and how to use them somewhere else, but the core fundamentals are still transferrable. Don't worry about that. We also learned to break down black boxes into smaller black boxes so we can figure out step-by-step how to get different things to function and get different functions to operate across different Objects within Excel.
+- Basically, we looped through worksheets and processed numbers.
 
 ### Module 03 - Python
 
