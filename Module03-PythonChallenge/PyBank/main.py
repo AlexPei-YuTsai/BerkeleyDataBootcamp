@@ -12,7 +12,7 @@ writepath = os.path.join("analysis","PyBankAnalysis.txt")
 with open(readpath, "r", encoding="utf") as budget, open(writepath, "w", newline="") as analysis:
     budgetR=csv.reader(budget, delimiter=",") #make csvreader. Don't need one for Analysis because it's not a CSV file.
     
-    header=next(budgetR) #skip header
+    header=next(budgetR) #stores header
     
     months, profits=[], [] #set up some numbers
     for row in budgetR: #didn't use list comprehension here because the pointer that iterates through the reader object doesn't reset itself for some reason. Instead of calling seek(0) or something, I'll just use a traditional loop to get what I need.
@@ -33,7 +33,8 @@ Average Monthly Change: ${sum(change)/len(change):.2f}\n\n\
 Greatest Monthly Profit Increase: {months[change.index(max(change))+1]} (${max(change):.2f})\n\n\
 Greatest Monthly Profit Decrease: {months[change.index(min(change))+1]} (${min(change):.2f})\n\n\
 -------------------------------------------------------"
-    
+    # I opted to store everything in a giant String block because I needed to recycle it in order to print it both onto the terminal and text file that I'm going to edit. If anything goes wrong, I can just edit this block up here.
+
     #print to terminal
     print(message)
 
