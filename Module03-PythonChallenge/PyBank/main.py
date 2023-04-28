@@ -24,15 +24,15 @@ with open(readpath, "r", encoding="utf") as budget, open(writepath, "w", newline
 
     #Found out that backslash can be used to organize large strings and lines of code. Sprinkled :.2f within formatted strings to align with standard currency formatting. For some reason, I have to delete or the indentation or the message shows up all indented on the terminal and text file.
     message = f"\
-------------------\n\n\
+-------------------------------------------------------\n\n\
 FINANCIAL ANALYSIS\n\n\
-------------------\n\n\
+-------------------------------------------------------\n\n\
 Total Months: {len(profits)}\n\n\
 Gross Total: ${sum(profits):.2f}\n\n\
 Average Monthly Change: ${sum(change)/len(change):.2f}\n\n\
 Greatest Monthly Profit Increase: {months[change.index(max(change))+1]} (${max(change):.2f})\n\n\
 Greatest Monthly Profit Decrease: {months[change.index(min(change))+1]} (${min(change):.2f})\n\n\
-------------------"
+-------------------------------------------------------"
     
     #print to terminal
     print(message)
