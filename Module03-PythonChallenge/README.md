@@ -47,3 +47,4 @@ Really, the rest of the code is just logic and specific quirks I had to confirm 
   - Who do they think I am?
     > Eh. I'm overreacting. The trend towards outrage media has led me to short fuses and even shorter patience.
 - Oh well, enough angsty pessimism for one day.
+- Something finally clicked with Git and their commits ahead/behind stuff. I'm glad to see that I'm not complete garbage at version control after someone kindly suggested I pull from my remote repository for once. I may be meandering through the fog, but I am gradually seeing clearer.
