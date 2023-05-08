@@ -6,7 +6,9 @@
 - A Jupyter Notebook `.ipynb` file containing all the data I processed, charts I generated, and analyses I wrote. Anything insightful and analytical can be found there, so I'll refrain from explaining too much here in this Readme.
   - The you see upon opening the file are internal links that lead to other sections of the Notebook. It doesn't quite work on Github's preview system, but it should work if you fork it and open it with Jupyter or VSCode.
 
-## Code Breakdown
+## Code Breakdown, but not really.
+> Look, the code I have is basically broken down line by line in the comments of the Notebook file. Just read that if you want anything remotely technical. There wasn't any super fancy logic or algorithms here, so this is really more of a diary entry.
+
 So. Why Pandas? Why can't we use Excel files if the source data is compatible with Excel?
 - Because it's so much easier on here.
 
@@ -14,7 +16,12 @@ For this assignment, we have two files to process:
 1. One file containing information about 15 schools.
 2. Another file containing information of about 39,000 students, each belonging to one of those 15 schools.
 
-You can infer that this assignment involves merging data and linking students of one spreadsheet to schools of another spreadsheet. The assignment is similar to a worksheet as the guidelines specify what they want and what charts they want outputted. We still have to figure out the code that returns the intended result, but the only thing that's purely my own input are my overly long analyses.
+And our job is to crunch them into different charts and extract meaning out of the numbers on them. Maybe identify patterns and explain for the variation and discrepancies within the dataset.
+- TLDR: Extract columns, make nice charts, interpret summaries.
+
+![This is a sample chart trying to show the difference in performance between two particular groups](https://cdn.discordapp.com/attachments/939673945240637450/1104946869064441926/image.png)
+
+You can tell that this assignment involves merging data and linking students of one spreadsheet to schools of another spreadsheet. The assignment is similar to a worksheet as the guidelines specify what they want and what charts they want outputted. We still have to figure out the code that returns the intended result, but the only thing that's purely my own input are my overly long analyses.
 
 With Pandas, you could do all that and more with just a few lines of code because the crazy people who wrote this library did all the heavy lifting for us. The hardest part was learning the format and the syntax of the language because sometimes I got the placement of the `[]` brackets mixed up. However, once you do that, everything pretty much boils down to:
 ```
