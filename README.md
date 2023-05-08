@@ -15,7 +15,9 @@ Aspiring data scientist's first IDE and programming language. We learn the basic
 More than half of data science pretty much relies on this or some library this language has to offer. Wanna do math and data analytics? Numpy and Matplotlib. Wanna do the same thing except with something that stands out more on a resume? Pandas. Wanna do Machine Learning and Linear Algebra? Pytorch and Tensorflow. Face-tracking applications that took 6 months for a PhD candidate to write can now be replicated in 20 minutes with a tutorial because of how many tools there are. We stand atop the shoulders of giants, but we still need scale the titans' backs.
 - Learned file reading, writing, and manipulation here. Eventually there'll be more math.
 
-### Module 04 - Python, but now with Pandas
+### Module 04 - Python, but now with [Pandas](https://github.com/AlexPei-YuTsai/BerkeleyDataBootcamp/tree/main/Module04-PandasChallenge)
+At some point, we'll have to handle Big Data that we can't efficiently manage on Excel. Pandas allows us to clean, aggregate, and analyze data quickly so we can collect the insights that matter. Garbage in, garbage out. The faster you get good data into your system, the faster you get good results from your Machine Learning black boxes. It's similar to Machine Learning applications like Rapidminer where the first step to processing any data is to do data preparation and clean up your garbage data.
+- Advanced chart manipulation, basically.
 
 ### Module 05 - Python, but now with charts and Matplotlib
 
