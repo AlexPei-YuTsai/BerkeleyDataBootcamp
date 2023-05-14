@@ -4,7 +4,7 @@
 - A folder with all the CSV data files I access for this assignment.
 - A .gitignore file for any Python Notebook checkpoints ~~that I totally did not delete on accident~~ because apparently it's good practice to not share checkpoints with strangers on the internet in case any sensitive information is included.
 - A Jupyter Notebook `.ipynb` file containing all the data I processed, charts I generated, and analyses I wrote. Anything insightful and analytical can be found there, so I'll refrain from explaining too much here in this Readme.
-  - The you see upon opening the file are internal links that lead to other sections of the Notebook. It doesn't quite work on Github's preview system, but it should work if you fork it and open it with Jupyter or VSCode.
+  - The links you see upon opening the file are internal links that lead to other sections of the Notebook. It doesn't quite work on Github's preview system, but it should work if you fork it and open it with Jupyter or VSCode.
 
 ## Code Breakdown, but not really.
 > Look, the code I have is basically broken down line by line in the comments of the Notebook file. Just read that if you want anything remotely technical. There wasn't any super fancy logic or algorithms here, so this is really more of a diary entry.
