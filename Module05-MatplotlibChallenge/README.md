@@ -13,14 +13,82 @@ We have two files to process:
 1. One file containing metadata about lab rats such as their size, .
 2. Another file containing information of tumor sizes of the lab rats over the course of their medical experiments.
 
-As previously mentioned, all the insightful stuff you need are in the comments of the attached `.ipynb` files, but I would like to talk about a few snippets of code I'm particularly fond of and maybe explain my process behind them.
+As previously mentioned, all the insightful stuff you need are in the comments of the attached `.ipynb` file, so I would like to instead talk about a few snippets of code I'm particularly fond of and maybe explain my process behind them.
 
-//TODO//
+### Wrangling Groups
+So. Groupby. I tell Python to group my stuff by some value in a column and magic happens. What is it, really? If I run `df.groupby(["Column_Name_Here"])`, what I get is a GroupBy "object" that contains "information about the groups" according to official documentation.
 ```python
-thing[column].do_stuff(but="like this tho").do_more_stuff()
+<pandas.core.groupby.generic.DataFrameGroupBy object at 0x000001FE7492D390>
+```
+This address doesn't make much sense to me, but we can visualize what this is by iterating through each of the groups with this method:
+```python
+for name, group in test_group:
+    print(name)
+    print(group)
+```
+This will return the name of each group as well as all of the rows that belong to each group. For example, if you grouped data by "drug regimen", a group's name might be "Capomulin" or "Stelasyn" or "Placebo" and each group will have all the data of the rows that belong to that group. 
+> The screenshot below used `group.head()` to conserve space and accesses `df.groupby(["Drug Regimen"])`.
+
+![This is what a group looks like](https://cdn.discordapp.com/attachments/1107347677831778364/1107393764739260456/image.png)
+
+And if I defined each group to be `df.groupby(["Grouping_By_This_Column"])["And Accessing This Column"]`, I'd get only the column I referenced within each group.
+> The screenshot below used `group.head()` to conserve space and accesses `df.groupby(["Drug Regimen"])["Tumor Volume (mm3)"]`.
+
+![You can slice groups too, apparently](https://cdn.discordapp.com/attachments/1107347677831778364/1107395568046714941/image.png)
+
+I still don't know what GroupBy is, but it's probably some kind of [mapping function](https://en.wikipedia.org/wiki/Map_(higher-order_function)) that does something to every single row of my dataframe. However, now that I have a means of getting the data from the groups, I could look into ways to iterate through them or even iterating through each row of every group.
+
+### Doing Stuff with Groups
+I can access the group I want through `group_name.get_group("name_of_the_group")`. For example, if I did `group.get_group("Placebo")` where my `group` is defined to be `df.groupby(["Drug Regimen"])["Tumor Volume (mm3)"]` in order to get that one column I want, I will access the data of `Placebo` as a Pandas Series (because I'm only accessing one column).
+
+![The Placebo Group's contents](https://cdn.discordapp.com/attachments/1107347677831778364/1107397700808355900/image.png)
+
+This means that I can dynamically access the groups I want by defining what I need in some kind of list rather than writing a separate line for each group I want. For example, this implementation will concatenate each group I extract (each `get_group` returns a Series because of how I planned my groups) and join them into one big ol' dataframe:
+```python
+treatments = ["Capomulin", "Ramicane", "Infubinol", "Ceftamin"]
+df = pd.concat([group.get_group(i).rename(i) for i in treatments], axis="columns")
 ```
 
-### Things that helped a lot
+![Joining iterated groups to make a beeg dataframe](https://cdn.discordapp.com/attachments/1107347677831778364/1107404835655000154/image.png)
+
+### Boxplot Shenanigans
+Now that I have a consolidated dataframe, I can straight up toss it into `df.plot(kind="box")` and make my minimum-effort boxplot. No questions asked because the default arguments and the way this higher-level function is written is actually considerate of a developer's time.
+
+![Boxplot one](https://cdn.discordapp.com/attachments/1107347677831778364/1107405795404042240/test.png)
+
+None of the NaN entries matter because each of those entries is literally "Not a Number" and is not considered for Pandas' built-in functions.
+
+This also means that I can do boxplots on *whatever* columns I want.
+```python
+treatments = ["Placebo", "Ramicane", "Zoniferol", "Stelasyn", "Naftisol", \
+              "Propriva", "Ceftamin", "Infubinol", "Ketapril", "Capomulin"]
+test.plot(kind="box", rot=90) # Added the 90 to rotate labels
+```
+Makes:
+
+![Boxplot two](https://cdn.discordapp.com/attachments/1107347677831778364/1107408334681812992/image.png)
+
+All it takes then is a bit of styling and a bit of documentation-referencing.
+```python
+test.plot(kind="box", 
+          capprops={"color":"black"}, 
+          whiskerprops={"color":"black"}, 
+          boxprops={"color":"black"}, 
+          medianprops={"color":"orange"}, 
+          flierprops={"markerfacecolor":"red", "markersize":"14"}, 
+          ylabel="Final Tumor Volume (mm3)")
+# Added a reference line to show where Tumor Volumes started
+plt.axhline(y=45, c="r", linestyle="--", label="Starting Tumor Volume") 
+plt.legend()
+plt.show()
+```
+Which makes:
+
+![Boxplot three](https://cdn.discordapp.com/attachments/1107347677831778364/1107409309874278501/image.png)
+
+It only takes a few moments of thought to make data ever so digestible. Similar chains of logic can also be found elsewhere in my Notebook, which makes things a lot more reusable. Trying to implement this extra little step has greatly improved my understanding of how Pandas' groupby stuff works.
+
+## Resources that helped a lot
 - [Corey Schafer's entire Pandas Playlist](https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS) as well as his [Matplotlib series](https://www.youtube.com/playlist?list=PL-osiE80TeTvipOqomVEeZ1HRrcEvtZB_) served me well.
   - If you check my last post, you might find that I've included the same link. This is for the very simple reason of: Jesus Christ, I've already forgotten how to use Pandas within the span of less than 2 days. Somebody help me.
   - Unfortunately, similar to how learning verbal languages work, retention is predicated on consistent practice and self-imposed hardship.
