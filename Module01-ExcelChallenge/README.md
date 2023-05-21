@@ -4,7 +4,7 @@
 There are two files in here: 
 1. An Excel file with pivot tables and charts breaking down data about crowdfunding campaigns and their successes and failures. Various treatments have been done to the data to produce the graphics you see below.
 2. A short writeup about my thoughts - Slightly elaborate detail about any statistical observations I have regarding the results and dataset.
-### Installation/Prerequisites:
+### Installation/Prerequisites
 - Just needs Microsoft Excel, Word or anything that's compatible with the files I've uploaded.
 
 ## Code Breakdown
