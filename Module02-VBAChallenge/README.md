@@ -1,6 +1,6 @@
 # Visual Basic for Applications (VBA) Challenge
 > Can we aggregate millions of lines of data in order to aggregate stock market data?
-## Folder Contents:
+## Folder Contents
 - A script that parses through all pages of a given Excel file and produces a summary table for each unique stock ticker on the spreadsheet.
   - Scripts in both `.vbs` and `.bas` form. 
   - `.bas` files can be directly imported into your file through the Visual Basic Editor by going to File > Import File. The other file type will require some Commmand Line Interface nonsense if you haven't directly copied the code in the file onto the Editor.
