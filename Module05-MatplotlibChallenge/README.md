@@ -1,10 +1,19 @@
 # Python - Data Visualization Challenge
-
+> How do I turn the data I have into compelling and informative visual aids?
 ## Folder Contents
 - A folder with all the CSV data files I access for this assignment.
 - A .gitignore file I've *properly* pushed onto this repository this time around.
 - A Jupyter Notebook `.ipynb` file containing all the data I processed, charts and graphs I generated, and any analyses I wrote. Anything insightful and analytical can be found there, so, rather than explaining too much here, this Readme will instead cover the *how* of creating this project.
   - The links you see upon opening the file are internal links that lead to other sections of the Notebook. It doesn't quite work on Github's preview system, but it should work if you fork it and open it with Jupyter or VSCode.
+### Installation/Prerequisites
+- Make sure you can run Python. The development environment I used was set-up with:
+```
+conda create -n dev python=3.10 anaconda -y
+```
+  - Explanation about the [different conda flags here](https://docs.conda.io/projects/conda/en/latest/commands/create.html#:~:text=Create%20a%20new%20conda%20environment,n%20NAME%20or%20%2Dp%20PREFIXoption.).
+  - This also means that it's most ideal if you also have Conda and Anaconda set up. 
+  - We have a lot of modules here. Installing via the conda command given should give you access to all of the script's modules locally. However, if you don't have them, be sure to grab yourself [Pandas](https://pandas.pydata.org/docs/getting_started/install.html), [NumPy](https://numpy.org/install/), [SciPy](https://scipy.org/install/), and [MatPlotLib](https://matplotlib.org/stable/users/installing/index.html).
+  - (TLDR: Just Conda a proper development environment...)
 
 ## Code Showcase
 The goal of this assignment is to (first and foremost, get us accustomed to wrangling data) make charts that show and compare the effectiveness of various drug treatments on lab mice with SCC tumors.
@@ -102,7 +111,7 @@ It only takes a few moments of thought to make data ever so digestible. Similar 
 - [A video on Numpy regression](https://www.youtube.com/watch?v=EMIyRmrPWJQ). I found the content around the 8-minute mark to be more relevant.
 
 ## Random Thoughts
-### May 14, 2023
+> Project completed on May 14, 2023
 - The other day, I was going through [documentation regarding a polyfit function](https://numpy.org/doc/stable/reference/generated/numpy.polyfit.html) and I found something worth noting:
 
 ![Oh my god, I think I actually understand this.](https://cdn.discordapp.com/attachments/1107347677831778364/1107363804284723210/image.png)

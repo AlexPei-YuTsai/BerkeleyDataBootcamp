@@ -1,5 +1,6 @@
 # Visual Basic for Applications (VBA) Challenge
-## Folder Contents:
+> Can we aggregate millions of lines of data in order to aggregate stock market data?
+## Folder Contents
 - A script that parses through all pages of a given Excel file and produces a summary table for each unique stock ticker on the spreadsheet.
   - Scripts in both `.vbs` and `.bas` form. 
   - `.bas` files can be directly imported into your file through the Visual Basic Editor by going to File > Import File. The other file type will require some Commmand Line Interface nonsense if you haven't directly copied the code in the file onto the Editor.
@@ -8,6 +9,13 @@
   2. A snippet of results I got after doing the rest of the code and getting it to loop through all sheets of the oversized Excel file.
 - A miniature Excel file with only about 140,000 entries and the VBA script attached so anyone interested could try it out for themselves. The script can be activated by clicking on the little icon of a line graph instead of running the script through the Developer tab (assuming Macros are enabled).
   - Disclaimer: The original file this assignment's script was for had about 2.3 *million* data entries, so that's 70 megabytes of none of my business that you can get by [clicking on me](https://static.bc-edx.com/data/dl-1-2/m2/lms/starter/Starter_Code.zip "Just saying, this IS 2.3 million rows of random data")
+### Installation/Prerequisites
+- Just make sure that you have a version of Excel that can run Macros. Furthermore, do make sure to enable them on your machine. I *SWEAR* I don't have malicious code in the Macros that will destroy your machine. Just let it run:
+  - [How to enable Macros on your Excel](https://support.microsoft.com/en-us/office/enable-or-disable-macros-in-microsoft-365-files-12b036fd-d140-4e74-b45e-16fed1a7e5c6).
+- The excel file attached to this directory should have the Visual Basic script built into its local modules. If you downloaded the 70 megabytes of generated data like a madman, however, you can still get your file to work by opening your Visual Basic editor and importing the file with `File > Import File` through the toolbar at the top of your VBEditor.
+
+![Snapshot of where to import](https://cdn.discordapp.com/attachments/1107347677831778364/1109695510236909620/image.png)
+  - Assuming things work out as intended, the `.bas` file should be available for import, allowing you to directly test out the script and its excruciatingly long runtime.
 
 ## Code Breakdown
 ### Initial Attempt
@@ -53,13 +61,22 @@ In the code I have, I basically cycle through each page, sorting all the data ju
 
 Any other data generated basically abuses the Sort and Record Macro functions in order for me to conveniently collect any matches I need. **Record Macro** is also how I got all the special-sorting and conditional formatting into the editorin the first place. I recommend anyone trying to write a VBA program to exploit and use that functionality to save time and brainpower.
 
+![Sample Results](https://cdn.discordapp.com/attachments/1107347677831778364/1109694186095116409/image.png)
+> If you run the script, it should produce a neat lil' summary table to the side. Conditional formatting and any formatting done to the numbers are included in the VBA script, so that's something else you can look forward to.
+
 "But Alex," you may ask, "Doesn't your reliance on Sorts severely slow down your program?"
 
 Yes... Or so I thought. The 2.3 million-entry excel file took my computer roughly 3 minutes to fully finish. If I remove the Sorting function in the script, the time goes down to about 2 minutes and 55 seconds. I also wasn't really paying attention to my timer, so it's fair to say that the difference in computing time was negligible (It probably isn't). This means that whatever computing time it took is attributable to: My computer being garbage, VBA's compiler being garbage, or, more likely, my code being Garbage. However, given how my logic works and all the concerns I've listed previously, I find my current implementation to be satisfactory.
 
+## Resources that helped
+As per usual, I have found the resources here to be immensely helpful. They were pivotal in making coding with VBA tolerable and the few important tips and tricks they have in these videos are what got me to finish this project in a timely manner.
+- Kevin Stratvert's [50-minute VBA Extravaganza](https://www.youtube.com/watch?v=IJQHMFLXk_c) may seem long, but I guarantee that this is practically the only tutorial you'll need to get things started. Once you nail this, you can do what I do and beyond by furthering the understanding you have with resources elsewhere in cyberspace. You learn how Macros actually work and how you can use your Record Macros function to record tedious bits of code for later editing. This is also where you learn to use ActiveCell, so that's something else you can manipulate for your projects.
+  - This isn't the most transferable skill to have as Google Sheets' scripting language is based on Javascript, but the basics and logic behind everything should be consistent with Excel Macros' workflow, allowing you to acquire what you need fairly expeditiously. 
+
 ## Random Thoughts
-### April 22, 2023
-- God, is it just me, or does VBA's documentation just suck (maybe "mediocre" is a better word here, but it does suck)? Given that Macros are so unwieldy that Microsoft disables them by default and forces you to recognize that you will be activating scripts that cannot be undone, it almost feels like this is the one cousin in the family no one talks about and will eventually get phased out and deprecated out of Microsoft Office after something big takes off.
+> Project completed on April 22, 2023
+### On documentation...
+- God, is it just me, or does VBA's documentation just suck? Maybe "mediocre" is a better word here, but it most definitely does suck. Given that Macros are so unwieldy that Microsoft disables them by default and forces you to recognize that you will be activating scripts that cannot be undone, it almost feels like this is the one cousin in the family no one talks about and will eventually get phased out and deprecated out of Microsoft Office after something big takes off.
   - I mean... just look at [standard Javascript documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map "Look at how INFORMATIVE and DETAILED this is...") and compare it to [this VBA object's documentation](https://learn.microsoft.com/en-us/office/vba/language/reference/user-interface-help/dictionary-object "Bruh. Please."). 
   - It's night and day here! Yes, Javascript documentation may seem overwhelming with how much content they have, but that's precisely what we need. Just look at how *comprehensive* this is - examples with different data types, compatibility charts so it doesn't feel like I'm wasting 2 hours on a piece of code that isn't even being supported by my current setup, brief explanations of any methods and secondary functions connected to the referenced function in question, etc. It's so... helpful.
   - Meanwhile in VBA land, I didn't even know about activating it with the Microsoft Scripting Runtime reference until I explored 4-5 different third-party tutorial websites, each inundating me with a sickening amount of modals, popups, and ads.

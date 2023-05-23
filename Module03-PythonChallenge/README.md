@@ -1,5 +1,5 @@
 # Python Challenge
-
+> How can be process raw imported data into reportable insights?
 ## Folder Contents
 - There are *two* project folders as this Challenge was a two-part assignment. 
   - One is named **PyBank** and the other is named **PyPoll**. Functionally, they carry the exact same contents, though each one has a different theme. 
@@ -9,6 +9,13 @@
   - An "analysis" folder (I forgot to capitalize the name for some reason) with a clean text file that is supposed to collect the results after the relevant data is processed and a text file with a "Finished" attached to the end of the file name with the expected final results. 
     > The purpose of these separate files is to let anyone who took the time to fork this repository see for themselves that the code does read and write properly. It almost serves as a "Before-and-After" comparison where the clean file will look like the finished file after the attached script has run.
   - A `main.py` Python script file that reads the CSV data, processes the information inside it, and writes it into the aforementioned text file.
+### Installation/Prerequisites
+- Make sure you can run Python. The development environment I used was set-up with:
+```
+conda create -n dev python=3.10 anaconda -y
+```
+  - Explanation about the [different conda flags here](https://docs.conda.io/projects/conda/en/latest/commands/create.html#:~:text=Create%20a%20new%20conda%20environment,n%20NAME%20or%20%2Dp%20PREFIXoption.).
+  - This also means that it's most ideal if you also have Conda and Anaconda set up. If you don't, just make sure to have `csv` and `os` libraries installed as those are the modules used in the attached Python scripts.
 
 ## Code Breakdown
 The tasks given are pretty straightforward:
@@ -40,8 +47,14 @@ The csv module documentation also led me to reader/writer objects and other vita
 Really, the rest of the code is just logic and specific quirks I had to confirm with the specific approach and data types I picked. In hindsight, maybe I should've defined a function or something that will return the text form of the report that I'm supposed to write. By brute-forcing a quick solution I've probably missed out on a few contingencies that I could've accounted for.
 - For example, since the Max() function returns the first value that matches, I probably needed to call `statistics.mode` or use a loop instead in the unlikely case there are multiple winners. Fortunately, there are only a handful of candidates and I've displayed enough information for people to notice if there is in fact a tie.
 
+## Resources that helped
+- [Kevin Stratvert](https://www.youtube.com/watch?v=b093aqAZiPU) and [Mosh](https://www.youtube.com/watch?v=kqtD5dpn9C8) here both have 1-hour tutorials, though I think there's value in watching both (on double-speed, of course) as they may have content that don't overlap with each other. In the end, you'll have a firmer grasp of the basics enough for you to figure out the rest independently.
+- [W3Schools on Python](https://www.w3schools.com/python/). Yep. The whole thing. Strangely enough, it's also easier to access than official documentation and is written in a way that's more digestible to learners like us. If it's daunting and you're not exactly sure what to do or where to start, don't worry: Just Google "w3schools python (insert concept you want to learn here)".
+  - Google and StackOverflow is your friend, but let W3Schools be the first stop to all the Python things you need.
+
 ## Random Thoughts
-### April 28, 2023
+> Project completed on April 28, 2023
+### Just a rant. I don't always have something insightful to say.
 - So apparently people use Python and Django to make stuff. I did not know that. Parts of services like YouTube, Facebook, Instagram, and Uber all seem to use it to some degree, which makes sense considering the linear algebra and math that goes into dehumanizing people into dots for their tSNE cluster-based recommendation algorithms.
   - Wow. How quickly that sentence transitioned from an observation about a commonly used technological framework to visceral hatred for the modern attention-based economy. I think I started feeling this way because I didn't like how I was being averaged out by a bunch of back-propagated nonsense and being tossed into a bucket in cyberspace to feed and graze on the endless glut of content the internet has to offer.
   - Who do they think I am?
