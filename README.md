@@ -36,6 +36,11 @@ A picture is worth a thousand words and can compress millions of data entries in
 - Data Visualization techniques. Graphs, statistics, linear regression, and all that good stuff.
 
 ### Module 06 - Python, but now with APIs
+We code so we can code less. Aside from making another revenue stream in exchange for giving people access to some of the information you have so they can do work and make interesting things on your behalf, APIs are great for data science because they provide large amounts of information from a consolidated source and a predictable data type. It's like an IKEA or Home Depot for programmers. Modern coding is basically creating Frankenstein abominations from borrowed libraries anyways.
+
+![An hvPlot generated from Pandas and other APIs](https://cdn.discordapp.com/attachments/1107347677831778364/1110362260850872380/bokeh_plot.png)
+
+- API access and API magic. Get info from API and do stuff with that.
 
 ### Module 07 - PROJECT 1
 
