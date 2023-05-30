@@ -17,7 +17,7 @@ conda create -n dev python=3.10 anaconda -y
 #### Imported Modules
 - Installing via the conda command given should give you access to all of the script's modules locally. However, if you don't have them, be sure to grab yourself the following libraries:
   - [Pandas](https://pandas.pydata.org/docs/getting_started/install.html), [NumPy](https://numpy.org/install/), [SciPy](https://scipy.org/install/), for your basic dataframe and statistical manipulation.
-  - [Requests](https://requests.readthedocs.io/en/latest/), [hvPlot](https://hvplot.holoviz.org/getting_started/installation.html), [GeoViews](https://geoviews.org/), and [CitiPy]([https://matplotlib.org/stable/users/installing/index.html](https://github.com/wingchen/citipy)) for all the geographical information and city stuff to be done.
+  - [Requests](https://requests.readthedocs.io/en/latest/), [hvPlot](https://hvplot.holoviz.org/getting_started/installation.html), [GeoViews](https://geoviews.org/), and [CitiPy](https://github.com/wingchen/citipy) for all the geographical information and city stuff to be done.
 #### API Keys
 - You'll also need to get **2 API Keys**:
   - For the WeatherPy script, you'll need to get one for [OpenWeather](https://openweathermap.org/api), which needs you to make an account for 1,000 free daily calls.
