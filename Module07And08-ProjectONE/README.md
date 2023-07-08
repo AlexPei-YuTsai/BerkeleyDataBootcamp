@@ -1,6 +1,7 @@
 # Berkeley Data Bootcamp: Project 1
 > Wealth vs Quality of Life - Do richer places lead better lives?
-> *Disclaimer: This README focuses more on my portion of the group project. Full project, team members, and contribution details can be found in [the original group project repository](https://github.com/AlexPei-YuTsai/BerkeleyDataBootcampProjectONE). Discrepancies between the files of this repository and those of the one linked are a result of my personal cleanup efforts.
+
+> *Disclaimer: This README focuses more on my portion of the group project. Full project, team members, and contribution details can be found in [the original group project repository](https://github.com/AlexPei-YuTsai/BerkeleyDataBootcampProjectONE). Discrepancies between the files of this repository and those of the one linked are a result of my personal cleanup efforts.*
 
 ## Folder Contents
 - A `Wealth vs Quality of Life.ipynb` Jupyter Notebook file with all of our data management, coding, visualizations, and analysis.
