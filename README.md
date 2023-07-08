@@ -3,8 +3,21 @@ This repository contains most, if not all of the content I'm responsible for cre
 
 The language used here might be a little crass and straightforward, but really this is my way of staying authentic in a time when ChatGPT can hallucinate truthy garbage for you regardless.
 
+### Table of Contents and Quick Links
+- **I** - [Data Science and Python](#part-one---data-science-and-python)
+  - Module 01 - [Excel](#module-01---excel)
+  - Module 02 - [VBA](#module-02---visual-basic-for-applications)
+  - Module 03 - [Python](#module-03---python)
+  - Module 04 - [Pandas](#module-04---python-but-now-with-pandas)
+  - Module 05 - [MatPlotLib](#module-05---python-but-now-with-matplotlib-and-more-stuff)
+  - Module 06 - [APIs](#module-06---python-but-now-with-apis)
+  - Module 07 and 08 - [PROJECT 1: Wealth vs Health](#module-07-and-08---project-1)
+-  **II** - Databases
+-  **III** - Data Visualization
+-  **IV** - Machine Learning
+
 ---
-## PART ONE
+## PART ONE - Data Science and Python
 ### Module 01 - [Excel](https://github.com/AlexPei-YuTsai/BerkeleyDataBootcamp/tree/main/Module01-ExcelChallenge)
 Regardless of how lofty one's goals of machine learning and data science are, all data-processing begins at managing spreadsheets and understanding basic statistics. We learn pivot tables, conditional formatting, convenient functions, and data visualization here.
 
@@ -42,9 +55,12 @@ We code so we can code less. Aside from making another revenue stream in exchang
 
 - API access and API magic. Get info from API and do stuff with that.
 
-### Module 07 - PROJECT 1
+### Module 07 and 08 - [PROJECT 1](https://github.com/AlexPei-YuTsai/BerkeleyDataBootcamp/tree/main/Module07And08-ProjectONE)
+Using everything we learned in Part One, we picked a topic to explore and used data science in order to efficiently answer those questions. With Python, Pandas, and more, we processed the data. With MatPlotLib and other visualization libraries, we made powerful illustrations. With our teamwork, we told a story.
 
-### Module 08 - Still PROJECT 1
+![An geographical hvPlot generated in an attempt to illustrate the relationship between the wealth and obesity of a place](https://cdn.discordapp.com/attachments/939673945240637450/1127339117374607500/image.png)
+
+- Answering questions by collecting data ourselves and doing math to it programmatically.
 
 ---
 ## PART TWO
