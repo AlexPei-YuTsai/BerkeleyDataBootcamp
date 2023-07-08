@@ -4,7 +4,7 @@ This repository contains most, if not all of the content I'm responsible for cre
 The language used here might be a little crass and straightforward, but really this is my way of staying authentic in a time when ChatGPT can hallucinate truthy garbage for you regardless.
 
 ### Table of Contents and Quick Links
-- **I** - [Data Science and Python](#part-one---data-science-and-python)
+- **I - Data Science and Python**
   - Module 01 - [Excel](#module-01---excel)
   - Module 02 - [VBA](#module-02---visual-basic-for-applications)
   - Module 03 - [Python](#module-03---python)
@@ -12,9 +12,9 @@ The language used here might be a little crass and straightforward, but really t
   - Module 05 - [MatPlotLib](#module-05---python-but-now-with-matplotlib-and-more-stuff)
   - Module 06 - [APIs](#module-06---python-but-now-with-apis)
   - Module 07 and 08 - [PROJECT 1: Wealth vs Health](#module-07-and-08---project-1)
--  **II** - Databases
--  **III** - Data Visualization
--  **IV** - Machine Learning
+-  **II - Databases**
+-  **III - Data Visualization**
+-  **IV - Machine Learning**
 
 ---
 ## PART ONE - Data Science and Python
