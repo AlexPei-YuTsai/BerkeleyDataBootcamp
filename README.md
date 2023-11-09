@@ -7,28 +7,28 @@ I have learned a lot over the course of the past 6 months and I hope this is pro
 
 ### Table of Contents and Quick Links
 - **I - Data Science and Python**
-  - Module 1A - [Excel](#module-01---excel)
-  - Module 1B - [VBA](#module-02---visual-basic-for-applications)
-  - Module 1C - [Python](#module-03---python)
-  - Module 1D - [Pandas](#module-04---python-but-now-with-pandas)
-  - Module 1E - [MatPlotLib](#module-05---python-but-now-with-matplotlib-and-more-stuff)
-  - Module 1F - [APIs](#module-06---python-but-now-with-apis)
-  - Module 1P - [PROJECT 1: Wealth vs Health](#module-07-and-08---project-1)
+    - Module 1A - [Excel](#module-1A---excel)
+    - Module 1B - [VBA](#module-1B---visual-basic-for-applications)
+    - Module 1C - [Python](#module-1C---python)
+    - Module 1D - [Pandas](#module-1D---python-but-now-with-pandas)
+    - Module 1E - [MatPlotLib](#module-1E---python-but-now-with-matplotlib-and-more-stuff)
+    - Module 1F - [APIs](#module-1F---python-but-now-with-apis)
+    - Module 1P - [PROJECT 1: Wealth vs Health](#module-1P---project-1)
 -  **II - Databases**
-  - Module 2A - [SQL](#module-01---excel)
-  - Module 2B - [SQLAlchemy](#module-01---excel)
-  - Module 2C - [Web Data Extraction](#module-01---excel)
-  - Module 2D - [NoSQL](#module-01---excel)
-  - Module 2P - [PROJECT 2: ETL Pipeline](#module-01---excel)
+    - Module 2A - [SQL](#module-2a---crud-its-sql)
+    - Module 2B - [SQLAlchemy](#module-2b---sql-but-now-with-this-weird-sqlalchemy-black-magic)
+    - Module 2C - [Web Data Extraction](#module-2c---web-data-extraction)
+    - Module 2D - [NoSQL](#module-2d---nosql-ft-mongo)
+    - Module 2P - [PROJECT 2: ETL Pipeline](#module-2p---project-2)
 -  **III - Data Visualization**
-  -  Module 3A - [Interactive Visualizations](#module-01---excel)
-  -  Module 3B - [Frontend Map Displays](#module-01---excel)
-  -  Module 3P - [PROJECT 3: Oceanplastics analysis](#module-01---excel)
+    - Module 3A - [Interactive Visualizations](#module-3a---interactive-visualizations)
+    - Module 3B - [Frontend Map Displays](#module-3b---frontend-map-displays)
+    - Module 3P - [PROJECT 3: Oceanplastics analysis](#module-3p---project-3)
 -  **IV - Machine Learning**
-  - Module 4A - [Unsupervised Learning](#module-01---excel)
-  - Module 4B - [Supervised Learning](#module-01---excel)
-  - Module 4C - [Deep Learning](#module-01---excel)
-  - Module 4P - [PROJECT 4: Wealth vs Health Revisited](#module-01---excel)
+    - Module 4A - [Unsupervised Learning](#module-4a---unsupervised-learning)
+    - Module 4B - [Supervised Learning](#module-4b---supervised-learning)
+    - Module 4C - [Deep Learning](#module-4c---neural-networks-and-deep-learning)
+    - Module 4P - [PROJECT 4: Wealth vs Health Revisited](#module-4p---project-4)
 ---
 ## PART ONE - Data Science and Python
 ### Module 1A - [Excel](https://github.com/AlexPei-YuTsai/BerkeleyDataBootcamp/tree/main/Module01-Excel)
@@ -101,6 +101,6 @@ Using everything we learned in Part One, we picked a topic to explore and used d
 
 ### Module 4B - [Supervised Learning](https://github.com/AlexPei-YuTsai/credit-risk-classification)
 
-### Module 4C - [Neural Networks and Deep Learning](https://github.com/AlexPei-YuTsai/deep-learning-challenge)https://github.com/AlexPei-YuTsai/deep-learning-challenge)
+### Module 4C - [Neural Networks and Deep Learning](https://github.com/AlexPei-YuTsai/deep-learning-challenge)
 
-### Module 4P - [PROJECT 4](https://github.com/chris-yujin/UCB-Capstone-Project/tree/main)https://github.com/chris-yujin/UCB-Capstone-Project/tree/main)
+### Module 4P - [PROJECT 4](https://github.com/chris-yujin/UCB-Capstone-Project/tree/main)
