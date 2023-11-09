@@ -3,7 +3,7 @@ This repository contains most, if not all of the content I'm responsible for cre
 
 The language used here might be a little crass and straightforward, but really this is my way of staying authentic in a time when ChatGPT can hallucinate truthy garbage for you regardless.
 
-I have learned a lot over the course of the past 6 months and I hope this proves my growth as both a scholar, programmer, and data scientist.
+I have learned a lot over the course of the past 6 months and I hope this proves my growth as a scholar, programmer, and data scientist.
 
 ### Table of Contents and Quick Links
 - **I - Data Science and Python**
