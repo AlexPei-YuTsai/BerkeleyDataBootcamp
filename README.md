@@ -78,29 +78,86 @@ Using everything we learned in Part One, we picked a topic to explore and used d
 ---
 ## PART TWO
 ### Module 2A - CRUD, it's [SQL](https://github.com/AlexPei-YuTsai/sql-challenge)
+Using everything we learned in Part One, we picked a topic to explore and used data science in order to efficiently answer those questions. With Python, Pandas, and more, we processed the data. With MatPlotLib and other visualization libraries, we made powerful illustrations. With our teamwork, we told a story.
+
+![An geographical hvPlot generated in an attempt to illustrate the relationship between the wealth and obesity of a place](https://cdn.discordapp.com/attachments/1107347677831778364/1172076245920534568/image.png)
+
+- Answering questions by collecting data ourselves and doing math to it programmatically.
 
 ### Module 2B - SQL, but now with this weird [SQLAlchemy](https://github.com/AlexPei-YuTsai/sqlalchemy-challenge) black magic
+Using everything we learned in Part One, we picked a topic to explore and used data science in order to efficiently answer those questions. With Python, Pandas, and more, we processed the data. With MatPlotLib and other visualization libraries, we made powerful illustrations. With our teamwork, we told a story.
+
+![An geographical hvPlot generated in an attempt to illustrate the relationship between the wealth and obesity of a place](https://cdn.discordapp.com/attachments/1107347677831778364/1172076858389581854/image.png)
+
+- Answering questions by collecting data ourselves and doing math to it programmatically.
 
 ### Module 2C - [Web Data Extraction](https://github.com/AlexPei-YuTsai/data-collection-challenge)
+Using everything we learned in Part One, we picked a topic to explore and used data science in order to efficiently answer those questions. With Python, Pandas, and more, we processed the data. With MatPlotLib and other visualization libraries, we made powerful illustrations. With our teamwork, we told a story.
+
+![An geographical hvPlot generated in an attempt to illustrate the relationship between the wealth and obesity of a place](https://cdn.discordapp.com/attachments/939673945240637450/1130937272922030190/image.png)
+
+- Answering questions by collecting data ourselves and doing math to it programmatically.
 
 ### Module 2D - NoSQL ft. [Mongo](https://github.com/AlexPei-YuTsai/nosql-challenge)
+Using everything we learned in Part One, we picked a topic to explore and used data science in order to efficiently answer those questions. With Python, Pandas, and more, we processed the data. With MatPlotLib and other visualization libraries, we made powerful illustrations. With our teamwork, we told a story.
+
+![An geographical hvPlot generated in an attempt to illustrate the relationship between the wealth and obesity of a place](https://cdn.discordapp.com/attachments/1107347677831778364/1172083171010019379/image.png)
+
+- Answering questions by collecting data ourselves and doing math to it programmatically.
 
 ### Module 2P - [PROJECT 2](https://github.com/AlexPei-YuTsai/Crowdfunding_ETL)
+Using everything we learned in Part One, we picked a topic to explore and used data science in order to efficiently answer those questions. With Python, Pandas, and more, we processed the data. With MatPlotLib and other visualization libraries, we made powerful illustrations. With our teamwork, we told a story.
+
+![An geographical hvPlot generated in an attempt to illustrate the relationship between the wealth and obesity of a place](https://cdn.discordapp.com/attachments/1107347677831778364/1172084533378699374/image.png)
+
+- Answering questions by collecting data ourselves and doing math to it programmatically.
 
 ---
 ## PART THREE
 ### Module 3A - [Interactive Visualizations](https://github.com/AlexPei-YuTsai/belly-button-challenge)
+Using everything we learned in Part One, we picked a topic to explore and used data science in order to efficiently answer those questions. With Python, Pandas, and more, we processed the data. With MatPlotLib and other visualization libraries, we made powerful illustrations. With our teamwork, we told a story.
+
+![An geographical hvPlot generated in an attempt to illustrate the relationship between the wealth and obesity of a place](https://cdn.discordapp.com/attachments/1107347677831778364/1172085173026836550/image.png)
+
+- Answering questions by collecting data ourselves and doing math to it programmatically.
 
 ### Module 3B - [Frontend Map Displays](https://github.com/AlexPei-YuTsai/leaflet-challenge)
+Using everything we learned in Part One, we picked a topic to explore and used data science in order to efficiently answer those questions. With Python, Pandas, and more, we processed the data. With MatPlotLib and other visualization libraries, we made powerful illustrations. With our teamwork, we told a story.
+
+![An geographical hvPlot generated in an attempt to illustrate the relationship between the wealth and obesity of a place](https://cdn.discordapp.com/attachments/1107347677831778364/1172085449737633822/image.png)
+
+- Answering questions by collecting data ourselves and doing math to it programmatically.
 
 ### Module 3P - [PROJECT 3](https://github.com/AlexPei-YuTsai/BerkeleyDataBootcampProjectTHREE)
+Using everything we learned in Part One, we picked a topic to explore and used data science in order to efficiently answer those questions. With Python, Pandas, and more, we processed the data. With MatPlotLib and other visualization libraries, we made powerful illustrations. With our teamwork, we told a story.
+
+![An geographical hvPlot generated in an attempt to illustrate the relationship between the wealth and obesity of a place](https://cdn.discordapp.com/attachments/1107347677831778364/1172086605981438014/image.png)
+
+- Answering questions by collecting data ourselves and doing math to it programmatically.
 
 ---
 ## PART FOUR
 ### Module 4A - [Unsupervised Learning](https://github.com/AlexPei-YuTsai/cryptoclustering-challenge)
+Using everything we learned in Part One, we picked a topic to explore and used data science in order to efficiently answer those questions. With Python, Pandas, and more, we processed the data. With MatPlotLib and other visualization libraries, we made powerful illustrations. With our teamwork, we told a story.
+
+![An geographical hvPlot generated in an attempt to illustrate the relationship between the wealth and obesity of a place](https://cdn.discordapp.com/attachments/1107347677831778364/1172142858740973588/image.png)
+
+- Answering questions by collecting data ourselves and doing math to it programmatically.
 
 ### Module 4B - [Supervised Learning](https://github.com/AlexPei-YuTsai/credit-risk-classification)
+Using everything we learned in Part One, we picked a topic to explore and used data science in order to efficiently answer those questions. With Python, Pandas, and more, we processed the data. With MatPlotLib and other visualization libraries, we made powerful illustrations. With our teamwork, we told a story.
+
+![An geographical hvPlot generated in an attempt to illustrate the relationship between the wealth and obesity of a place](https://cdn.discordapp.com/attachments/1107347677831778364/1172143275419893830/image.png)
+
+- Answering questions by collecting data ourselves and doing math to it programmatically.
 
 ### Module 4C - [Neural Networks and Deep Learning](https://github.com/AlexPei-YuTsai/deep-learning-challenge)
+Using everything we learned in Part One, we picked a topic to explore and used data science in order to efficiently answer those questions. With Python, Pandas, and more, we processed the data. With MatPlotLib and other visualization libraries, we made powerful illustrations. With our teamwork, we told a story.
+
+![An geographical hvPlot generated in an attempt to illustrate the relationship between the wealth and obesity of a place](https://cdn.discordapp.com/attachments/1107347677831778364/1172143665846702100/image.png)
+
+- Answering questions by collecting data ourselves and doing math to it programmatically.
 
 ### Module 4P - [PROJECT 4](https://github.com/chris-yujin/UCB-Capstone-Project/tree/main)
+Using everything we learned in Part One, we picked a topic to explore and used data science in order to efficiently answer those questions. With Python, Pandas, and more, we processed the data. With MatPlotLib and other visualization libraries, we made powerful illustrations. With our teamwork, we told a story.
+- Answering questions by collecting data ourselves and doing math to it programmatically
