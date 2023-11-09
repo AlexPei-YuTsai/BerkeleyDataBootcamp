@@ -78,58 +78,58 @@ Using everything we learned in Part One, we picked a topic to explore and used d
 ---
 ## PART TWO
 ### Module 2A - CRUD, it's [SQL](https://github.com/AlexPei-YuTsai/sql-challenge)
-Using everything we learned in Part One, we picked a topic to explore and used data science in order to efficiently answer those questions. With Python, Pandas, and more, we processed the data. With MatPlotLib and other visualization libraries, we made powerful illustrations. With our teamwork, we told a story.
+With Machine Learning comes the need for an obscene amount of data. With that comes data storage methods. This is one of them and involves building relationships and links between relevant fields of data. We'll be using Postgres for this project. Apparently you can use `psycopg2` to get Python to communicate with this database.
 
-![An geographical hvPlot generated in an attempt to illustrate the relationship between the wealth and obesity of a place](https://cdn.discordapp.com/attachments/1107347677831778364/1172076245920534568/image.png)
+![Something about SQL, Postgres, and PGAdmin](https://cdn.discordapp.com/attachments/1107347677831778364/1172076245920534568/image.png)
 
-- Answering questions by collecting data ourselves and doing math to it programmatically.
+- Storing data in a way that makes sense. RDBMS basics.
 
 ### Module 2B - SQL, but now with this weird [SQLAlchemy](https://github.com/AlexPei-YuTsai/sqlalchemy-challenge) black magic
-Using everything we learned in Part One, we picked a topic to explore and used data science in order to efficiently answer those questions. With Python, Pandas, and more, we processed the data. With MatPlotLib and other visualization libraries, we made powerful illustrations. With our teamwork, we told a story.
+Now that we have some kind of understanding of where data goes, we should learn how to bring it out for processing and usage.
 
-![An geographical hvPlot generated in an attempt to illustrate the relationship between the wealth and obesity of a place](https://cdn.discordapp.com/attachments/1107347677831778364/1172076858389581854/image.png)
+![A Flask API that uses data stored in an SQL server](https://cdn.discordapp.com/attachments/1107347677831778364/1172076858389581854/image.png)
 
-- Answering questions by collecting data ourselves and doing math to it programmatically.
+- Learning how to use Flask to collect data from SQL, process it with Python, and then send it to the frontend via Javascript.
 
 ### Module 2C - [Web Data Extraction](https://github.com/AlexPei-YuTsai/data-collection-challenge)
-Using everything we learned in Part One, we picked a topic to explore and used data science in order to efficiently answer those questions. With Python, Pandas, and more, we processed the data. With MatPlotLib and other visualization libraries, we made powerful illustrations. With our teamwork, we told a story.
+Sometimes data doesn't come easily. So we have to collect it by force. Don't try this frivolously or you might get sued for DDOS'ing.
 
-![An geographical hvPlot generated in an attempt to illustrate the relationship between the wealth and obesity of a place](https://cdn.discordapp.com/attachments/939673945240637450/1130937272922030190/image.png)
+![A shot of webscraping in action.](https://cdn.discordapp.com/attachments/939673945240637450/1130937272922030190/image.png)
 
-- Answering questions by collecting data ourselves and doing math to it programmatically.
+- Learning to use webscrapers to collect data.
 
 ### Module 2D - NoSQL ft. [Mongo](https://github.com/AlexPei-YuTsai/nosql-challenge)
-Using everything we learned in Part One, we picked a topic to explore and used data science in order to efficiently answer those questions. With Python, Pandas, and more, we processed the data. With MatPlotLib and other visualization libraries, we made powerful illustrations. With our teamwork, we told a story.
+What if you don't want to use Relational Databases? Perhaps you don't know all the values or even fields of your dataset? MongoDB and other NoSQL systems will then be something worth looking into.
 
-![An geographical hvPlot generated in an attempt to illustrate the relationship between the wealth and obesity of a place](https://cdn.discordapp.com/attachments/1107347677831778364/1172083171010019379/image.png)
+![Python but with MongoDB](https://cdn.discordapp.com/attachments/1107347677831778364/1172083171010019379/image.png)
 
-- Answering questions by collecting data ourselves and doing math to it programmatically.
+- Using PyMongo and MongoDBCompass to get some work done.
 
 ### Module 2P - [PROJECT 2](https://github.com/AlexPei-YuTsai/Crowdfunding_ETL)
-Using everything we learned in Part One, we picked a topic to explore and used data science in order to efficiently answer those questions. With Python, Pandas, and more, we processed the data. With MatPlotLib and other visualization libraries, we made powerful illustrations. With our teamwork, we told a story.
+The Extract, Transform, Load process, or some variation of this pipeline seems to be pretty standard in bigger projects where there's a constant influx of data. Similar to how raw materials need to be processed before being turned to marketable goods, data needs to be cleaned before it's usable for any projects.
 
-![An geographical hvPlot generated in an attempt to illustrate the relationship between the wealth and obesity of a place](https://cdn.discordapp.com/attachments/1107347677831778364/1172084533378699374/image.png)
+![SQL Schema and ERD diagram](https://cdn.discordapp.com/attachments/1107347677831778364/1172084533378699374/image.png)
 
-- Answering questions by collecting data ourselves and doing math to it programmatically.
+- Learned to use the ETL Process.
 
 ---
 ## PART THREE
 ### Module 3A - [Interactive Visualizations](https://github.com/AlexPei-YuTsai/belly-button-challenge)
-Using everything we learned in Part One, we picked a topic to explore and used data science in order to efficiently answer those questions. With Python, Pandas, and more, we processed the data. With MatPlotLib and other visualization libraries, we made powerful illustrations. With our teamwork, we told a story.
+In order to make our work accessible, the best way to do it would just be to deploy it as a product that people can use. In this case, this means making a webpage that has some kind of functionality.
 
-![An geographical hvPlot generated in an attempt to illustrate the relationship between the wealth and obesity of a place](https://cdn.discordapp.com/attachments/1107347677831778364/1172085173026836550/image.png)
+![A webpage of interactive Plotly graphs](https://cdn.discordapp.com/attachments/1107347677831778364/1172085173026836550/image.png)
 
-- Answering questions by collecting data ourselves and doing math to it programmatically.
+- Gotta deploy this. Imagine being that guy that sends their friends a link to Localhost:5000.
 
 ### Module 3B - [Frontend Map Displays](https://github.com/AlexPei-YuTsai/leaflet-challenge)
-Using everything we learned in Part One, we picked a topic to explore and used data science in order to efficiently answer those questions. With Python, Pandas, and more, we processed the data. With MatPlotLib and other visualization libraries, we made powerful illustrations. With our teamwork, we told a story.
+Some modules are more cumbersome than others. Leaflet is one of them, but the ability to create mapped displays is definitely worth the hours of lost sleep.
 
-![An geographical hvPlot generated in an attempt to illustrate the relationship between the wealth and obesity of a place](https://cdn.discordapp.com/attachments/1107347677831778364/1172085449737633822/image.png)
+![A map that updates periodically based on API data it receives](https://cdn.discordapp.com/attachments/1107347677831778364/1172085449737633822/image.png)
 
-- Answering questions by collecting data ourselves and doing math to it programmatically.
+- Leaflet map-making and applied Python API usage.
 
 ### Module 3P - [PROJECT 3](https://github.com/AlexPei-YuTsai/BerkeleyDataBootcampProjectTHREE)
-Using everything we learned in Part One, we picked a topic to explore and used data science in order to efficiently answer those questions. With Python, Pandas, and more, we processed the data. With MatPlotLib and other visualization libraries, we made powerful illustrations. With our teamwork, we told a story.
+I couldn't deploy this because I'm pretty sure PythonAnywhere and Heroku all have maintenance fees, but I still managed to use the tools I learned to create something, so that's nice.
 
 ![An geographical hvPlot generated in an attempt to illustrate the relationship between the wealth and obesity of a place](https://cdn.discordapp.com/attachments/1107347677831778364/1172086605981438014/image.png)
 
@@ -138,26 +138,28 @@ Using everything we learned in Part One, we picked a topic to explore and used d
 ---
 ## PART FOUR
 ### Module 4A - [Unsupervised Learning](https://github.com/AlexPei-YuTsai/cryptoclustering-challenge)
-Using everything we learned in Part One, we picked a topic to explore and used data science in order to efficiently answer those questions. With Python, Pandas, and more, we processed the data. With MatPlotLib and other visualization libraries, we made powerful illustrations. With our teamwork, we told a story.
+The first step of machine learning: grouping things. There are many ways we can group things and hopefully we can get a computer to do it for us.
 
-![An geographical hvPlot generated in an attempt to illustrate the relationship between the wealth and obesity of a place](https://cdn.discordapp.com/attachments/1107347677831778364/1172142858740973588/image.png)
+![Clusters from ML clustering](https://cdn.discordapp.com/attachments/1107347677831778364/1172142858740973588/image.png)
 
-- Answering questions by collecting data ourselves and doing math to it programmatically.
+- K-Means, PCA, and Unsupervised Learning.
 
 ### Module 4B - [Supervised Learning](https://github.com/AlexPei-YuTsai/credit-risk-classification)
-Using everything we learned in Part One, we picked a topic to explore and used data science in order to efficiently answer those questions. With Python, Pandas, and more, we processed the data. With MatPlotLib and other visualization libraries, we made powerful illustrations. With our teamwork, we told a story.
+Next up in the machine learning curriculum: predicting and classifying things. Based on observable trends, we try to get a computer to predict the future or guess what bucket something belongs to.
 
-![An geographical hvPlot generated in an attempt to illustrate the relationship between the wealth and obesity of a place](https://cdn.discordapp.com/attachments/1107347677831778364/1172143275419893830/image.png)
+![Confusion matrix from ML classification](https://cdn.discordapp.com/attachments/1107347677831778364/1172143275419893830/image.png)
 
-- Answering questions by collecting data ourselves and doing math to it programmatically.
+- Regression methods and Supervised Learning. 
 
 ### Module 4C - [Neural Networks and Deep Learning](https://github.com/AlexPei-YuTsai/deep-learning-challenge)
-Using everything we learned in Part One, we picked a topic to explore and used data science in order to efficiently answer those questions. With Python, Pandas, and more, we processed the data. With MatPlotLib and other visualization libraries, we made powerful illustrations. With our teamwork, we told a story.
+Neural Networks. The big Black Box that revitalized this field and enabled so many unique ideas to form.
 
 ![An geographical hvPlot generated in an attempt to illustrate the relationship between the wealth and obesity of a place](https://cdn.discordapp.com/attachments/1107347677831778364/1172143665846702100/image.png)
 
-- Answering questions by collecting data ourselves and doing math to it programmatically.
+- Frankly, I should look into CS230 and actually learn how loss functions work. Tensorflow is neat, though.
 
 ### Module 4P - [PROJECT 4](https://github.com/chris-yujin/UCB-Capstone-Project/tree/main)
-Using everything we learned in Part One, we picked a topic to explore and used data science in order to efficiently answer those questions. With Python, Pandas, and more, we processed the data. With MatPlotLib and other visualization libraries, we made powerful illustrations. With our teamwork, we told a story.
-- Answering questions by collecting data ourselves and doing math to it programmatically
+The final Everything project. Using the logic, know-how, and experience gathered over the past 6 months, we try to create a cool project that does something with machine learning. In this case, we try to predict how changes in average wealth and health behaviors shift health outcomes.
+- Main Contributions: Core logic and infrastructure to get data to be communicated between front and backends. Framework built upon the code I had in Project 3. Data collected from sources in Project 1.
+
+There's still plenty to learn. My next endeavor involves self-studying Andrew Y. Ng's [CS230](https://cs230.stanford.edu/syllabus/) and [CS229](https://cs229.stanford.edu/syllabus-spring2022.html) materials to get a stronger mathematical understanding of what's going on as well as better fundamentals to build more effective machine learning modules. Now that I've taken this course, I feel more confident to study by myself and learn by doing on my own terms.
