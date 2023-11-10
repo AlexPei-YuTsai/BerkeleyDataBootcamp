@@ -23,7 +23,7 @@ I have learned a lot over the course of the past 6 months and I hope this proves
 -  **III - Data Visualization**
     - Module 3A - [Interactive Visualizations](#module-3a---interactive-visualizations)
     - Module 3B - [Frontend Map Displays](#module-3b---frontend-map-displays)
-    - Module 3P - [PROJECT 3: Oceanplastics analysis](#module-3p---project-3)
+    - Module 3P - [PROJECT 3: Oceanplastics Analysis](#module-3p---project-3)
 -  **IV - Machine Learning**
     - Module 4A - [Unsupervised Learning](#module-4a---unsupervised-learning)
     - Module 4B - [Supervised Learning](#module-4b---supervised-learning)
